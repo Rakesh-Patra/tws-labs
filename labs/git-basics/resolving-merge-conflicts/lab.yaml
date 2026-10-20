@@ -23,7 +23,7 @@ steps:
     hint:
       - A diff between two branch names compares their snapshots.
       - Put main first, then feature. Limit the diff to app.conf.
-      - 'Try: git diff main feature -- app.conf > ../changes.diff (the report stays outside the repository).'
+      - The report is the diff's output redirected into a file. Keep it in your home directory, outside proj.
     success: You compared both versions before deciding how to combine them.
   - id: start-merge
     type: task
